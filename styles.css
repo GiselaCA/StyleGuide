@@ -1,0 +1,248 @@
+.colors{
+  width: 625px;
+  height: 500px;
+  border: 2px dotted teal;
+}
+
+ .fonts{
+  width: 600px;
+  height: 250px;
+  border: 2px dotted teal;
+  margin-top: 30px;
+}
+
+ .styles{
+  width: 600px;
+  height: 800px;
+  border: 2px dotted teal;
+  margin-top: 30px;
+}
+
+h1{
+  font-family:'Amatic SC';
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  color: teal; 
+}
+
+h2{
+  font-family: 'Shadows Into Light';
+  text-align: center;
+  font-size:30px;
+  text-decoration: underline;
+  color: darkseagreen;
+  padding: 0;
+}
+
+h3{
+  font-family: Verdana;
+  font-size: 16px;
+  color: lightslategrey;
+  text-align:center;
+}
+
+p{
+  color:darkslategray;
+  text-align:center;
+  font-size: 12px;
+  font-family:Arial;
+}
+
+li{
+  color:darkslategray;
+  text-align:center;
+  font-size: 16px;
+  font-family:Arial;
+  list-style-type: none;
+}
+
+
+.text{
+ font-family: 'Patrick Hand';
+ font-size: 40px;
+  color: lightslategrey;
+  text-decoration: underline;
+}
+
+.announcement{
+font-family: 'Dancing Script';
+ font-size: 40px;
+ font-weight: 700;
+color: lightslategrey;
+text-decoration: underline;
+}
+
+.Amatic-h2{
+  font-family: 'Amatic SC';
+  font-weight: 400;
+  font-size: 40px;
+  color: lightslategrey;
+  text-decoration: underline;
+
+}
+
+.Amatic-h1{
+  font-family: 'Amatic SC';
+  font-weight: 700;
+  font-size: 40px;
+  color: lightslategrey;
+  text-decoration: underline;
+
+}
+
+
+
+.color1{
+  background-color: #CDB7E6;
+  display: inline-block;
+  width: 150px;
+  height:150px;
+  margin: 25px;
+}
+
+.color2{
+  background-color: #B9E6B7;
+  display: inline-block;
+  width: 150px;
+  height:150px;
+  margin:25px;
+}
+
+.color3{
+  background-color: #82D27E;
+  display: inline-block;
+  width: 150px;
+  height:150px;
+  margin:25px;
+}
+
+
+.color4{
+  background-color: #E6CDB7;
+  display: inline-block;
+  width: 150px;
+  height:150px;
+  margin: 25px;
+}
+
+
+.color5{
+  background-color: #B7D0E6;
+  display: inline-block;
+  width: 150px;
+  height:150px;
+  margin: 25px;
+}
+
+
+.color6{
+  background-color: #D9B391;
+  display: inline-block;
+  width: 150px;
+  height:150px;
+  margin:25px;
+  vertical-align: top;
+}
+
+.Patrick-Hand{
+  font-family: 'Patrick Hand';
+  font-size:20px;
+}
+
+.Amatic-400{
+  font-family:'Amatic SC';
+  font-weight: 400;
+  font-size:20px;
+}
+
+.Amatic-700{
+   font-family:'Amatic SC';
+  font-weight: 700;
+  font-size:20px;
+}
+
+.DancingScript-700{
+   font-family:'Dancing Script';
+  font-weight: 700;
+  font-size:20px;
+}
+
+.DancingScript-400{
+   font-family:'Dancing Script';
+  font-weight: 400;
+  font-size:20px;
+}
+
+table{
+  margin: auto;
+}
+
+th{
+  font-family: Verdana;
+  text-decoration: underline;
+  font-size: 24px;
+  padding:10px;
+  color: lightslategrey;
+}
+
+tr{
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  color:darkslategray;
+}
+
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/amaticsc/v16/TUZyzwprpvBS1izr_vOECuSf.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/amaticsc/v16/TUZ3zwprpvBS1izr_vOMscGKfrUC.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v16/If2RXTr6YS-zF4S-kcSWSVi_szLgiuE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v16/If2RXTr6YS-zF4S-kcSWSVi_szLgiuE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Patrick Hand';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/patrickhand/v14/LDI1apSQOAYtSuYWp8ZhfYe8XsLL.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Shadows Into Light';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/shadowsintolight/v10/UqyNK9UOIntux_czAvDQx_ZcHqZXBNQzdcD5.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
