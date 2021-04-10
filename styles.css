@@ -2,20 +2,24 @@
   width: 625px;
   height: 500px;
   border: 2px dotted teal;
+  margin:  20px auto;
+		
 }
 
- .fonts{
-  width: 600px;
+ .fonts {
+  width: 625px;
   height: 250px;
   border: 2px dotted teal;
   margin-top: 30px;
+  margin: 20px auto;
 }
 
  .styles{
-  width: 600px;
+  width: 625px;
   height: 800px;
   border: 2px dotted teal;
   margin-top: 30px;
+  margin:  20px auto;
 }
 
 h1{
